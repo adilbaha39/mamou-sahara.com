@@ -14,7 +14,7 @@ export const metadata = {
 export default function QuatreX4Page() {
   return (
     <>
-      <section className="hero" style={{minHeight: '420px'}}>
+      <section className="hero hero-4x4 hero-sm">
         <div className="wrap">
           <div className="eyebrow">4x4 & Désert</div>
           <h1 className="serif">Location 4x4 à Errachidia et Merzouga</h1>

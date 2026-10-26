@@ -10,7 +10,7 @@ export const metadata = {
 export default function Article3() {
   return (
     <>
-      <section className="hero" style={{minHeight: '320px'}}>
+      <section className="hero hero-sm">
         <div className="wrap">
           <div className="eyebrow">Aéroport</div>
           <h1 className="serif">Location voiture aéroport Errachidia</h1>

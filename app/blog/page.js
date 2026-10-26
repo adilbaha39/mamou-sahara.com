@@ -29,7 +29,7 @@ const posts = [
 export default function BlogPage() {
   return (
     <>
-      <section className="hero" style={{minHeight: '360px'}}>
+      <section className="hero hero-sm">
         <div className="wrap">
           <div className="eyebrow">Blog</div>
           <h1 className="serif">Conseils & guides</h1>

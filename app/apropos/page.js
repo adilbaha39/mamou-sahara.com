@@ -6,7 +6,7 @@ export const metadata = {
 export default function AproposPage() {
   return (
     <>
-      <section className="hero" style={{minHeight: '380px'}}>
+      <section className="hero hero-sm">
         <div className="wrap">
           <div className="eyebrow">À propos</div>
           <h1 className="serif">Plus qu&apos;une location, une expérience.</h1>

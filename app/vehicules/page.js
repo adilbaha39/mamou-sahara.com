@@ -19,7 +19,7 @@ const fleet = [
 export default function VehiculesPage() {
   return (
     <>
-      <section className="hero" style={{minHeight: '420px'}}>
+      <section className="hero hero-vehicules hero-sm">
         <div className="wrap">
           <div className="eyebrow">Notre flotte</div>
           <h1 className="serif">Des véhicules pour chaque aventure</h1>

@@ -10,7 +10,7 @@ export const metadata = {
 export default function Article1() {
   return (
     <>
-      <section className="hero" style={{minHeight: '320px'}}>
+      <section className="hero hero-merzouga hero-sm">
         <div className="wrap">
           <div className="eyebrow">Guide</div>
           <h1 className="serif">Errachidia → Merzouga : distance, durée et conseils</h1>

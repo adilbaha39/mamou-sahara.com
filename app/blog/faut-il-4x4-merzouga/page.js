@@ -10,7 +10,7 @@ export const metadata = {
 export default function Article2() {
   return (
     <>
-      <section className="hero" style={{minHeight: '320px'}}>
+      <section className="hero hero-4x4 hero-sm">
         <div className="wrap">
           <div className="eyebrow">4x4 & Désert</div>
           <h1 className="serif">Faut-il un 4x4 pour aller à Merzouga ?</h1>

@@ -6,7 +6,7 @@ export const metadata = {
 export default function ConditionsPage() {
   return (
     <>
-      <section className="hero" style={{minHeight: '340px'}}>
+      <section className="hero hero-sm">
         <div className="wrap">
           <div className="eyebrow">Informations</div>
           <h1 className="serif">Conditions de location</h1>

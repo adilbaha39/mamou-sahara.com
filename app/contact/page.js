@@ -9,7 +9,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <>
-      <section className="hero" style={{minHeight: '380px'}}>
+      <section className="hero hero-sm">
         <div className="wrap">
           <div className="eyebrow">Contact</div>
           <h1 className="serif">Une question ?<br/>Nous sommes là.</h1>

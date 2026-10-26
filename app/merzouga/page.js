@@ -14,7 +14,7 @@ export const metadata = {
 export default function MerzougaPage() {
   return (
     <>
-      <section className="hero" style={{minHeight: '420px'}}>
+      <section className="hero hero-merzouga hero-sm">
         <div className="wrap">
           <div className="eyebrow">Merzouga & Sahara</div>
           <h1 className="serif">Location de voiture à Merzouga</h1>

@@ -58,7 +58,7 @@ export default function FaqPage() {
     <>
       <script type="application/ld+json" dangerouslySetInnerHTML={{__html: JSON.stringify(schema)}} />
 
-      <section className="hero" style={{minHeight: '340px'}}>
+      <section className="hero hero-sm">
         <div className="wrap">
           <div className="eyebrow">Aide</div>
           <h1 className="serif">Questions fréquentes</h1>

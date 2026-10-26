@@ -1,13 +1,11 @@
 
 /* ====== IMAGES (بدل المسارات بالصور ديالك) ====== */
 :root{
-  /* Images: put files in public/images/ then set:
-     --img-hero: url('/images/hero.jpg');
-     --img-steps: url('/images/steps-car.jpg');
-     --img-map: url('/images/errachidia-map.jpg');
-  */
-  --img-hero: none;
-  --img-steps: none;
+  --img-hero: url('/images/hero.webp');
+  --img-hero-merzouga: url('/images/hero-merzouga.webp');
+  --img-hero-4x4: url('/images/hero-4x4.webp');
+  --img-hero-vehicules: url('/images/hero-vehicules.webp');
+  --img-steps: url('/images/steps-car.webp');
   --img-map: none;
   --navy:#0a1b33; --navy2:#0d2340; --green:#0f9d7a; --cream:#f1efea; --text:#1b2433;
 }
@@ -57,6 +55,12 @@ nav a:hover,nav a.on{opacity:1;border-color:#fff}
 .perks div{display:flex;align-items:center;gap:12px}
 .perks svg{font-size:26px}
 .tag-r{position:absolute;right:4%;bottom:26px;font-size:9.5px;letter-spacing:.3em;text-transform:uppercase}
+
+.hero-merzouga{background:var(--navy) var(--img-hero-merzouga) center/cover no-repeat}
+.hero-4x4{background:var(--navy) var(--img-hero-4x4) center/cover no-repeat}
+.hero-vehicules{background:var(--navy) var(--img-hero-vehicules) center/cover no-repeat}
+.hero-sm{min-height:420px;height:auto;max-height:560px}
+
 .hero-edge{position:absolute;left:0;right:0;bottom:-1px;height:30px;background:var(--cream);clip-path:polygon(0 80%,35% 40%,70% 70%,100% 20%,100% 100%,0 100%)}
 
 /* FLEET */
