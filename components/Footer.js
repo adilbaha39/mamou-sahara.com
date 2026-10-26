@@ -10,7 +10,7 @@ export default function Footer() {
         <div className="cols">
           <div className="col brand">
             <Link href="/" className="logo">
-              <img src="/images/logo.png" alt="Mamou Sahara" onError={(e)=>{e.target.style.display='none'}} />
+              <img src="/images/logo.png" alt="Mamou Sahara" />
               <div><b>MAMOU</b><small>— SAHARA —</small></div>
             </Link>
             <p>Location de voitures à Errachidia et Merzouga. 4x4, SUV et véhicules premium pour explorer le Sahara en toute confiance.</p>

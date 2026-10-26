@@ -12,7 +12,7 @@ export default function Header() {
     <header>
       <div className="wrap">
         <Link href="/" className="logo">
-          <img src="/images/logo.png" alt="Mamou Sahara" onError={(e)=>{e.target.style.display='none'}} />
+          <img src="/images/logo.png" alt="Mamou Sahara" />
           <div>
             <b>MAMOU</b>
             <small>— SAHARA —</small>
